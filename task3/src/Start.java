@@ -48,8 +48,19 @@ public class Start {
             i = i + i;
         }while(i <= 512);
          */
+        /*
+        int num = 327082;   //7
+        int n;
 
-
+        for(int i = 0; i <= 6; i++){
+            n = num % 10;
+            if(n == 3 || n == 8){
+                continue;
+            }
+            num = num / 10;
+            System.out.print(num + " ");
+            }
+         */
 
     }
 }
