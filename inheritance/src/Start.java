@@ -1,5 +1,3 @@
-import java.util.SortedMap;
-
 class Student {
     String fName;
     String lName;
@@ -21,12 +19,16 @@ class Aspirant extends Student{
         super(fn, ln, g, av, s);
         this.Sincework = sw;
     }
-}
 
+    void talk(){
+        System.out.println(avMark);
+    }
+}
 
 public class Start {
     public static void main (String[] args){
         Student first = new Student("Bob", "Jackson", "044", 10.0, 180);
         Aspirant second = new Aspirant("Bob", "Jackson", "044", 10.0, 180, "Since");
+
     }
 }
